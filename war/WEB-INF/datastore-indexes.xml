@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datastore-indexes autoGenerate="true">
+    <datastore-index kind="location" ancestor="false">
+        <property name="userId" direction="asc" />
+        <property name="regAton" direction="asc" />
+    </datastore-index>
+    <datastore-index kind="location" ancestor="false">
+        <property name="userId" direction="asc" />
+        <property name="regAton" direction="asc" />
+        <property name="seqNo" direction="asc" />
+    </datastore-index>
+    <datastore-index kind="AdFreeUrl" ancestor="false">
+    	<property name="regAton" direction="asc" />
+        <property name="requestType" direction="asc" />
+        <property name="countryCode" direction="asc" />
+    </datastore-index>
+    <datastore-index kind="AdFreeUrl" ancestor="false" source="manual">
+        <property name="requestType" direction="asc"/>
+        <property name="regAton" direction="desc"/>
+    </datastore-index>
+</datastore-indexes>
